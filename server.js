@@ -14,7 +14,7 @@ app.use("/api/users",Users);
 app.use("/api/obstacle",Obstacle);
 
 mongoose.connect(
-    "mongodb://localhost:27017/usuarios",
+    'mongodb+srv://leysiaurich15:unprgia2022@cluster0.hxy7q.mongodb.net/ProyectoIA?retryWrites=true&w=majority',
    
     {useNewUrlParser:true},
     (err,res)=>{
